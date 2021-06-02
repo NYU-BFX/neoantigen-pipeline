@@ -1,0 +1,3 @@
+HLA-A	hla_a_01_37	hla_a_01_194
+HLA-B	hla_b_35_02_01	hla_b_57_01_01
+HLA-C	hla_c_06_127_01	hla_c_18_01
