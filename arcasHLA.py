@@ -80,9 +80,4 @@ class arcasHLA:
         cmd = self.return_config + '  genotype  ' +  self.return_fastq1()  + '  ' +  self.return_fastq2() + '  -g A,B,C,DPB1,DQB1,DQA1,DRB1 -o '  + self.return_prefix() + '  -t 8 -v'
         print (cmd)
         
-r1=arcasHLA("OUT.bam", "config.ini" , "LOG", "HEJR", ".")
-cmd = r1.test_arcas()
-r1.arcasHLA_log(cmd)     
-#config=Config('config.ini')
-#ad= config.find_in_config('arcasHLA',  'arcasHLA')
-#print (ad)
+
